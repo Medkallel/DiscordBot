@@ -23,6 +23,10 @@ client.on('message', msg=> {
            let args = msg.content.substring(prefix.length).split(" ");
             switch (args[0])
             {
+                case 'ping':
+                    msg.channel.sendMessage("Your ping is `" + `${Date.now() - msg.createdTimestamp}` + " ms`");
+                case 'Ping':
+                    msg.channel.sendMessage("Your ping is `" + `${Date.now() - msg.createdTimestamp}` + " ms`");
                 case 'Help':
                     msg.channel.send("Please visit the Bots-Command channel located at <#701471892841955378>!")
                     break;
