@@ -63,7 +63,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             web.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (web.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -94,7 +94,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             web.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (web.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -125,7 +125,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             app.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (app.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -156,7 +156,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             app.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (app.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -187,7 +187,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             game.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (game.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -219,7 +219,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             game.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (game.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -250,7 +250,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             video.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (video.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
@@ -281,7 +281,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             video.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (video.length + 1) + ' persons in this queue')
                         }
                     }
                     break;
