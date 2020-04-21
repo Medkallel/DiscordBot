@@ -50,7 +50,7 @@ client.on('message', msg=> {
                         }
                         else 
                         {
-                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (web.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -63,7 +63,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             web.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (web.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
                         }
                     }
                     break;
@@ -81,7 +81,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (web.length ) + ' persons in this queue')
                         }
                      }
                     else 
@@ -94,7 +94,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             web.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (web.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. ')
                         }
                     }
                     break;
@@ -112,8 +112,8 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
-                        }
+                            msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (app.length ) + ' persons in this queue')
+                        } 
                     }
                     else 
                     {
@@ -125,7 +125,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             app.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (app.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. ')
                         }
                     }
                     break;
@@ -143,7 +143,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (app.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -156,7 +156,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             app.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (app.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. ')
                         }
                     }
                     break;
@@ -174,7 +174,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (game.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -187,7 +187,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             game.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (game.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
                         }
                     }
                     break;
@@ -206,7 +206,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (game.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -219,7 +219,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             game.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (game.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. ')
                         }
                     }
                     break;
@@ -237,7 +237,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (video.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -250,7 +250,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             video.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (video.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
                         }
                     }
                     break;
@@ -268,7 +268,7 @@ client.on('message', msg=> {
                         }
                         else
                         {
-                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>')
+                             msg.reply('you are not in the queue, you can register using the following command: $<the channel you want to register for>. There is currently '+ (video.length ) + ' persons in this queue')
                         }
                     }
                     else 
@@ -281,7 +281,7 @@ client.on('message', msg=> {
                         {
                             var ms = msg.member.id;
                             video.push(msg.member.id)
-                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue. There is currently '+ (video.length ) + ' persons in this queue')
+                            msg.channel.send('Succesfullly added <@' + ms + '> to the queue!  Use the following command to see your plave in the queue:  $<the channel you are joining> queue.')
                         }
                     }
                     break;
